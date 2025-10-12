@@ -3,10 +3,9 @@
 }
 .Hero-left-Card{
     position: absolute;
-
     left: 70px;
     top: 80px;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
     font-family: "Bruno Ace";
 
@@ -18,9 +17,9 @@
 
 .Hero-right-Card{
     position:absolute;
-    height: 300px;
+    height: 330px;
     width: 280px;
-    top: 90px;
+    top: 30px;
     display: flex;
     overflow: hidden;
     border-radius: 15px;
@@ -57,4 +56,78 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+}
+.Hero-bottom-Card{
+    height: 220px;
+    position: absolute;
+    width: 480px;
+    /* background-color: #d4a012; */
+    left: 70px;
+  
+    top: 310px;
+    border-radius: 20px;
+    bottom: 0px;
+}
+.Hero-bottom-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.Hero-bottom-text{
+    position: absolute;
+    top:80px;
+    right: -20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+  
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40px;
+    height: 70px ;
+    background-color: #D9B85E;
+}
+.Hero-bottom-right-Card{
+    position: absolute;
+    right: 70px;
+    height: 140px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    top: 400px;
+    background-color: #D9B85E;
+  
+}
+.Hero-bottom-button{
+    position: absolute;
+    height: 35px;
+    right: 30px;
+    border: black;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width : 120px;
+    background-color:#d3ba76;
+    border-radius: 20px;
+}
+.Download-button{
+    background-color: #d4a012;
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+.Download-text{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.Hero-bottom-right-Card-text{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Space Grotesk";
 }

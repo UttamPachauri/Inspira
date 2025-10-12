@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/Hero.css"
-import { Star, MoveUp } from 'lucide-react'
+import { Star, MoveUp , Download} from 'lucide-react'
 const Hero = () => {
   return (
     <div className='Hero-main'>
@@ -25,7 +25,18 @@ const Hero = () => {
               </div>
             </div>
         </div>
-
+        <div className='Hero-bottom-Card'>
+          <img src="https://i.pinimg.com/736x/00/61/60/006160e2c1859ae3efa01b63b47b45ae.jpg" alt="" className='Hero-bottom-img' />
+          <div className='Hero-bottom-text'>Create  <br /> Design</div>
+        </div>
+        <div className='Hero-bottom-right-Card'>
+        <div className='Hero-bottom-right-Card-text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, repellat.
+        </div>
+        <div className='Hero-bottom-download'>
+          <button className='Hero-bottom-button'><span className='Download-text'>Download</span> <span className='Download-button'><Download /></span> </button>
+        </div>
+        </div>
+        
     </div>
   )
 }

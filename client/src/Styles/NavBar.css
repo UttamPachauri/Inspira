@@ -32,12 +32,14 @@
 .nav-button{
     padding: 10px 28px;
     margin: 0 24px;
-    background-color: #D9B85E;
+    /* background-color: #D9B85E; */
     border-radius: 10px;
     font-family: "Space Grotesk";
     font-size: 13px;
     font-weight: 500;
+    cursor: pointer;
 }
+
 
 li{
     cursor: pointer;
